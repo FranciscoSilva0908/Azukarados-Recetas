@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css">
     <title>Azukarados</title>
 </head>
@@ -10,11 +13,165 @@
     <header>
 
     </header>
+
     <main>
+        <!-- carrusel de fotos con postres populares -->
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imagenes/cheesecake.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/pie-de-limon.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imagenes/torta-chocolate.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
 
+        <!-- pequeña seccion que habla sobre nosotros con un boton para ir a otra seccion mas extensa -->
+        <section>
+            <h2>
+                SOBRE NOSOTROS
+            </h2>
+            <P>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde est illo minima voluptate voluptatum, ab labore, quis minus optio nesciunt saepe ducimus et culpa provident id enim rerum. Optio, impedit.
+            </P>
+            <img src="" alt="">
+            <a href="">SABER MÁS</a>
+        </section>
+
+        <!-- recetas de panaderia -->
+        <section>
+            <H2>RECETAS DE PANADERIA</H2>
+            <div>
+                <h3>
+                    PIZZA
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <div>
+                <h3>
+                    PAN DE JAMON
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <div>
+                <h3>
+                    CACHITOS
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <a href="html/panaderia.html">VER RECETAS</a>
+        </section>
+
+        <!-- recetas de reposteria -->
+        <section>
+            <H2>RECETAS DE REPOSTERIA</H2>
+            <div>
+                <h3>
+                    TORTA HUMEDA DE CHOCOLATE
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <div>
+                <h3>
+                    MUFFIN
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <div>
+                <h3>
+                    GALLETAS DE CHISPAS
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <a href="html/reposteria.html">VER RECETAS</a>
+        </section>
+
+        <!-- recetas de pasteleria -->
+        <section>
+            <H2>RECETAS DE PASTELERIA</H2>
+            <div>
+                <h3>
+                    PIE DE LIMÓN
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <div>
+                <h3>
+                    CHEESECAKE
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <div>
+                <h3>
+                    OPERA
+                </h3>
+                <img src="" alt="">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                </p>
+            </div>
+            <a href="html/pasteleria.html">VER RECETAS</a>
+        </section>
+
+        <!-- continuacion de la seccion sobre nosotros -->
+        <section>
+            <h3>SOBRE NOSOTROS</h3>
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo magnam suscipit animi quisquam expedita assumenda, iste id deserunt aut exercitationem soluta. Consectetur enim eius impedit accusantium odio exercitationem, quidem perferendis!
+            Excepturi, ea repellendus odio dolore quasi, optio dolorem libero quas a nam hic voluptatibus quaerat. Architecto saepe, tenetur commodi, unde numquam iure sed obcaecati excepturi totam atque cumque perspiciatis iusto.
+            Neque, dolor perspiciatis voluptatibus odio nulla inventore nostrum magni modi nisi doloremque iste eius deleniti. Vero obcaecati commodi assumenda dolor excepturi dolorem nam nobis, eligendi neque rem. At, itaque quisquam.</p>
+            <img src="" alt="">
+        </section>
     </main>
-    <footer>
 
+    <footer>
+        <h4>AZUKARADOS</h4>
+        <img src="" alt="">
     </footer>
+
+    <!-- JV Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
