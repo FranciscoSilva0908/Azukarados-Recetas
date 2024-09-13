@@ -1,0 +1,13 @@
+footer{
+    background-color: #1d3544;
+    color: $color-secundario;
+    height: 150px;
+    position: sticky;
+    bottom: 1;
+    h4{
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 0;
+        text-align: justify;
+    }
+}

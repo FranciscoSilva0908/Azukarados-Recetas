@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- css -->
@@ -10,8 +14,28 @@
     <title>Azukarados</title>
 </head>
 <body>
-    <header>
-
+    <header class="color-navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand color" href="#">AZÚKARADOS</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link color" aria-current="page" href="html/panaderia.html">PANADERÍA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color" href="html/reposteria.html">REPOSTERÍA</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color" href="html/pasteleria.html">PASTELERÍA</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
     <main>
@@ -46,129 +70,147 @@
         </section>
 
         <!-- pequeña seccion que habla sobre nosotros con un boton para ir a otra seccion mas extensa -->
-        <section>
+        <section class="nosotros">
             <h2>
                 SOBRE NOSOTROS
             </h2>
-            <P>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde est illo minima voluptate voluptatum, ab labore, quis minus optio nesciunt saepe ducimus et culpa provident id enim rerum. Optio, impedit.
-            </P>
-            <img src="" alt="">
-            <a href="">SABER MÁS</a>
+            <div>
+                <P>
+                    Azúkarados comenzó su andadura hace más de 30 años con un secreto familiar: recetas tradicionales que han pasado de generación en generación. Fundada por Don Carlos y Doña Elena, quienes heredaron su pasión por la panadería de sus abuelos, la panadería se convirtió rápidamente en un emblema del barrio. Sus panes y pasteles, elaborados con técnicas artesanales y ingredientes frescos, siguen el legado de las recetas originales, llenando el aire con aromas que evocan tiempos pasados y ofreciendo a cada cliente un pedacito de historia en cada bocado. En Azúkarados, cada receta cuenta una historia de amor y dedicación.
+                </P>
+                <img src="imagenes/nosotros.jpg" alt="panaderia">
+
+            </div>
         </section>
 
         <!-- recetas de panaderia -->
-        <section>
-            <H2>RECETAS DE PANADERIA</H2>
+        <section class="recetas">
+            <H2>RECETAS DE PANADERÍA</H2>
+
+            <h3>
+                PIZZA
+            </h3>
             <div>
-                <h3>
-                    PIZZA
-                </h3>
-                <img src="" alt="">
+                
+                <img src="imagenes/pizza.jpg" alt="pizza">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                    La Pizza es un clásico de la cocina italiana que destaca por su simplicidad y sabor. Con una base de masa crujiente y ligera, se cubre con una rica capa de salsa de tomate casera, fresca y ligeramente sazonada. El queso mozzarella, derretido a la perfección, se mezcla con hojas de albahaca fresca, añadiendo un toque aromático y colorido. Horneada hasta alcanzar un dorado apetitoso, esta pizza combina la acidez del tomate, la suavidad del queso y el frescor de la albahaca en cada bocado. Ideal para una comida reconfortante y sabrosa.
                 </p>
             </div>
+
+            <h3>
+                PAN DE JAMÓN
+            </h3>
             <div>
-                <h3>
-                    PAN DE JAMON
-                </h3>
-                <img src="" alt="">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                    El Pan de Jamón es una delicia tradicional venezolana, perfecta para ocasiones especiales y celebraciones. Este pan, con su suave y esponjosa masa, se rellena generosamente con jamón cocido, tocineta crujiente y aceitunas verdes, creando una combinación irresistible de sabores salados y un toque de sofisticación. La mezcla se envuelve cuidadosamente en la masa y se hornea hasta obtener una corteza dorada y crujiente. Cada rebanada revela un festín de sabores que evocan calidez y festivo, convirtiendo el Pan de Jamón en el protagonista de cualquier mesa navideña o reunión familiar.
+                </p>
+                <img src="imagenes/pan_de_jamon.jpg" alt="pan de jamón">
+            </div>
+
+            <h3>
+                CACHITOS
+            </h3>
+            <div>
+                
+                <img src="imagenes/cachitos.jpg" alt="cachito">
+                <p>
+                    El cachito es un exquisito bollo venezolano que destaca por su masa suave y ligera, rellena con jamón y queso. Este pequeño placer culinario comienza con una masa enriquecida y delicada que se enrolla con un generoso relleno de jamón picado y queso, a menudo complementado con un toque de mostaza o especias. Horneado hasta alcanzar un dorado perfecto, el cachito ofrece una combinación de sabores salados y una textura esponjosa que lo convierte en el bocadillo ideal para el desayuno, una merienda o cualquier ocasión especial. Cada bocado es una celebración de la tradición y el sabor venezolano.
                 </p>
             </div>
-            <div>
-                <h3>
-                    CACHITOS
-                </h3>
-                <img src="" alt="">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
-                </p>
+            <div class="link">
+                <a href="html/panaderia.html">VER RECETAS</a>
             </div>
-            <a href="html/panaderia.html">VER RECETAS</a>
         </section>
 
         <!-- recetas de reposteria -->
-        <section>
-            <H2>RECETAS DE REPOSTERIA</H2>
+        <section class="recetas">
+            <H2>RECETAS DE REPOSTERÍA</H2>
+
+            <h3>
+                TORTA HÚMEDA DE CHOCOLATE
+            </h3>
             <div>
-                <h3>
-                    TORTA HUMEDA DE CHOCOLATE
-                </h3>
-                <img src="" alt="">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                    La torta húmeda de chocolate es un verdadero deleite para los amantes del cacao. Esta receta combina ingredientes de alta calidad para crear un pastel rico y decadente, con una textura sorprendentemente suave y jugosa. La mezcla de cacao puro y chocolate derretido se incorpora en una masa perfectamente batida, lo que garantiza un sabor intenso y un interior húmedo que se deshace en cada bocado. Horneada a la perfección, esta torta se adorna con un glaseado de chocolate liso y brillante, añadiendo una capa extra de indulgencia. Ideal para celebrar ocasiones especiales o simplemente para disfrutar de un momento de puro placer chocolatero.
+                </p>
+                <img src="imagenes/torta-chocolate.jpg" alt="torta humeda de chocolate">
+            </div>
+
+            <h3>
+                MUFFIN
+            </h3>
+            <div>
+                
+                <img src="imagenes/muffin.jpg" alt="muffin">
+                <p>
+                    Los muffins de chispas de chocolate son un dulce tentador que combina la calidez de una textura esponjosa con la dulzura de las chispas de chocolate derretidas. Estos muffins comienzan con una masa ligera y aireada, enriquecida con trozos generosos de chispas de chocolate que se funden al hornearse, creando deliciosos estallidos de sabor en cada bocado. Con una corteza dorada y crujiente por fuera y un interior suave y húmedo, son el acompañamiento perfecto para el desayuno, una merienda o simplemente para consentirse en cualquier momento del día. Cada muffin es una pequeña porción de felicidad chocolatera que alegra el paladar.
                 </p>
             </div>
+
+            <h3>
+                GALLETAS DE CHISPAS
+            </h3>
             <div>
-                <h3>
-                    MUFFIN
-                </h3>
-                <img src="" alt="">
+                
+                
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                    Las galletas de chispas de chocolate son un clásico irresistible que combina una masa suave y ligeramente crujiente con abundantes chispas de chocolate que se derriten en cada bocado. Estas galletas se preparan con una mezcla perfecta de mantequilla, azúcar y un toque de vainilla, creando una base dorada y deliciosa. Las chispas de chocolate, dispersas generosamente en la masa, ofrecen estallidos de dulzura y riqueza en cada mordida. Ideales para compartir o disfrutar en solitario, estas galletas son un deleite atemporal que aporta confort y satisfacción en cualquier momento del día.
                 </p>
+                <img src="imagenes/galleta_chip.jpg" alt="galleta chips de chocolate">
             </div>
-            <div>
-                <h3>
-                    GALLETAS DE CHISPAS
-                </h3>
-                <img src="" alt="">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
-                </p>
+            <div class="link">
+                <a href="html/reposteria.html">VER RECETAS</a>
             </div>
-            <a href="html/reposteria.html">VER RECETAS</a>
         </section>
 
         <!-- recetas de pasteleria -->
-        <section>
-            <H2>RECETAS DE PASTELERIA</H2>
+        <section class="recetas">
+            <H2>RECETAS DE PASTELERÍA</H2>
+
+            <h3>
+                PIE DE LIMÓN
+            </h3>
             <div>
-                <h3>
-                    PIE DE LIMÓN
-                </h3>
-                <img src="" alt="">
+                <img src="imagenes/pie-de-limon.jpg" alt="pie de limon">
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                    El pie de limón es un postre refrescante y vibrante que destaca por su equilibrio perfecto entre acidez y dulzura. Esta delicia comienza con una base crujiente de masa quebrada que sostiene una cremosa capa de relleno de limón, hecho con jugo de limón fresco, yema de huevo y un toque de leche condensada. El relleno, con su textura sedosa y sabor brillante, se corona con un suave merengue dorado, que aporta una nota ligera y aireada al contraste ácido del limón. Refrigerado y servido frío, el pie de limón es una explosión de frescura cítrica en cada bocado, ideal para finalizar una comida con un toque de elegancia y sabor.
                 </p>
             </div>
+
+            <h3>
+                CHEESECAKE
+            </h3>
             <div>
-                <h3>
-                    CHEESECAKE
-                </h3>
-                <img src="" alt="">
+                
+                
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
+                    El cheesecake es un postre decadente y sofisticado que combina una base crujiente de galletas con un relleno de queso crema suave y cremoso. La base, hecha de galletas trituradas y mantequilla, ofrece un contraste delicioso con el relleno, que se mezcla con azúcar y esencia de vainilla para lograr una textura rica y sedosa. Cocido al baño María para asegurar una textura perfectamente suave, el cheesecake puede ser adornado con una variedad de coberturas, como frutas frescas, salsas de frutos rojos o un suave coulis de caramelo. Cada bocado es una experiencia indulgente que equilibra la dulzura y la acidez en una combinación irresistible.
+                </p>
+                <img src="imagenes/cheesecake.jpg" alt="cheesecake">
+            </div>
+
+            <h3>
+                OPERA
+            </h3>
+            <div>
+                
+                <img src="imagenes/opera.jpg" alt="opera de chocolate">
+                <p>
+                    El Opera Cake es un sofisticado pastel francés que deslumbra con su elegancia y complejidad. Este delicado postre se compone de capas finas de bizcocho de almendra, conocido como joconde, intercaladas con un suave y aromático relleno de crema de café y ganache de chocolate. Cada capa está impregnada con un almíbar de café, aportando una profundidad de sabor que se complementa con un glaseado brillante de chocolate. Decorado con un acabado refinado y a menudo adornado con detalles dorados o decoraciones delicadas, el Opera Cake ofrece una experiencia de sabor exquisita y una presentación impresionante, ideal para ocasiones especiales.
                 </p>
             </div>
-            <div>
-                <h3>
-                    OPERA
-                </h3>
-                <img src="" alt="">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, iure. Aliquam repellendus quos excepturi quibusdam, assumenda impedit at vitae odit totam quidem sunt neque voluptates. Placeat officia repellendus ex eum.
-                </p>
+            <div class="link">
+                <a href="html/pasteleria.html">VER RECETAS</a>
             </div>
-            <a href="html/pasteleria.html">VER RECETAS</a>
         </section>
 
-        <!-- continuacion de la seccion sobre nosotros -->
-        <section>
-            <h3>SOBRE NOSOTROS</h3>
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo magnam suscipit animi quisquam expedita assumenda, iste id deserunt aut exercitationem soluta. Consectetur enim eius impedit accusantium odio exercitationem, quidem perferendis!
-            Excepturi, ea repellendus odio dolore quasi, optio dolorem libero quas a nam hic voluptatibus quaerat. Architecto saepe, tenetur commodi, unde numquam iure sed obcaecati excepturi totam atque cumque perspiciatis iusto.
-            Neque, dolor perspiciatis voluptatibus odio nulla inventore nostrum magni modi nisi doloremque iste eius deleniti. Vero obcaecati commodi assumenda dolor excepturi dolorem nam nobis, eligendi neque rem. At, itaque quisquam.</p>
-            <img src="" alt="">
-        </section>
+
     </main>
 
-    <footer>
-        <h4>AZUKARADOS</h4>
-        <img src="" alt="">
+    <footer class="footer">
+        <h4>AZÚKARADOS</h4>
+
     </footer>
 
     <!-- JV Bootstrap -->

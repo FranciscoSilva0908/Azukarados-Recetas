@@ -3,6 +3,233 @@
   margin: 0;
   list-style-type: none;
   text-decoration: none;
+  font-family: "Poppins", Times, serif;
+}
+
+body {
+  background-color: #fff8eb;
+  color: #1d3544;
+}
+
+footer {
+  background-color: #1d3544;
+  color: #f3a2b0;
+  height: 150px;
+  position: sticky;
+  bottom: 1;
+}
+footer h4 {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 0;
+  text-align: justify;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.color-navbar {
+  background-color: #f3a2b0;
+}
+
+.container-fluid {
+  background-color: #f3a2b0;
+}
+
+.color {
+  color: #1d3544;
+}
+
+.titulos h1 {
+  text-align: center;
+  padding: 20px;
+}
+.titulos h3 {
+  text-align: center;
+}
+
+.inicio {
+  display: flex;
+  padding: 50px;
+}
+.inicio img {
+  height: 300px;
+  width: 40%;
+  object-fit: cover;
+}
+.inicio p {
+  text-align: justify;
+  width: 50%;
+  padding: 20px;
+}
+
+.primera-parte {
+  display: flex;
+  padding: 60px;
+}
+.primera-parte img {
+  height: 400px;
+  width: 40%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+.primera-parte img:hover {
+  transform: scale(1.1);
+}
+.primera-parte p {
+  text-align: justify;
+  padding-right: 50px;
+  padding-top: 50px;
+  width: 60%;
+}
+
+.segunda-parte {
+  text-align: justify;
+  padding: 60px;
+}
+
+.nosotros {
+  padding: 30px;
+}
+.nosotros h2 {
+  text-align: center;
+  padding: 10px;
+}
+.nosotros div {
+  display: flex;
+}
+.nosotros div p {
+  text-align: justify;
+  padding: 30px;
+}
+.nosotros div a {
+  padding: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+.nosotros div img {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.recetas {
+  padding: 30px;
+}
+.recetas h2 {
+  text-align: center;
+  padding: 10px;
+}
+.recetas h3 {
+  text-align: center;
+}
+.recetas div {
+  display: flex;
+  padding: 20px;
+}
+.recetas div img {
+  height: 300px;
+  width: 50%;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+.recetas div img:hover {
+  transform: scale(1.2);
+}
+.recetas div p {
+  padding: 30px;
+  text-align: justify;
+  width: 80%;
+}
+.recetas a {
+  text-align: center;
+}
+
+.link {
+  justify-content: center;
+}
+.link a {
+  text-decoration: none;
+  color: #1d3544;
+}
+
+/* movil */
+@media only screen and (max-width: 498px) {
+  .nosotros {
+    padding: 10px;
+  }
+  .nosotros div img {
+    height: 200px;
+  }
+  .nosotros div p {
+    font-size: small;
+    padding: 10px;
+  }
+  .recetas {
+    padding: 10px;
+  }
+  .recetas div {
+    padding: 0;
+  }
+  .recetas div img {
+    height: 150px;
+    padding-top: 20px;
+  }
+  .recetas div p {
+    padding: 10px;
+    font-size: small;
+  }
+  .inicio {
+    padding: 10px;
+  }
+  .inicio img {
+    height: 150px;
+  }
+  .inicio p {
+    padding: 10px;
+    font-size: small;
+  }
+  .primera-parte {
+    padding: 10px;
+  }
+  .primera-parte img {
+    height: 200px;
+  }
+  .primera-parte p {
+    font-size: small;
+    padding: 10px;
+  }
+  .segunda-parte {
+    padding: 20px;
+    font-size: small;
+  }
+  footer {
+    height: 100px;
+  }
+  footer h4 {
+    font-size: medium;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 0;
+  }
+}
+/* tablet */
+@media only screen and (max-width: 960px) {
+  .nosotros div img {
+    padding-top: 40px;
+  }
+  .recetas div img {
+    padding-top: 40px;
+  }
+  .inicio img {
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  .primera-parte img {
+    padding-top: 70px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

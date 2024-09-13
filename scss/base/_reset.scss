@@ -3,4 +3,10 @@
     margin: 0;
     list-style-type: none;
     text-decoration: none;
+    font-family: "Poppins", Times, serif;
+}
+
+body{
+    background-color: $color-primario;
+    color: $color-texto;
 }
