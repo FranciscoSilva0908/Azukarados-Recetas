@@ -20,9 +20,12 @@ footer {
 }
 footer h4 {
   padding-top: 50px;
-  padding-left: 50px;
   padding-bottom: 0;
-  text-align: justify;
+  text-align: center;
+}
+footer p {
+  text-align: center;
+  font-size: 10px;
 }
 
 header {
